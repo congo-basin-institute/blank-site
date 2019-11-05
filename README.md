@@ -19,8 +19,8 @@ Each student will produce a personal website.
 ### Materials
 
 - [Learning Web Design by Jennifer Robbins](https://learningwebdesign.com/)
-
-- [Pro Git by Scott Chacon and Ben Straub](https://git-scm.com/book/en/v2)
+- [Art Direction for the Web by Andy Clarke](https://stuffandnonsense.co.uk/artdirectionfortheweb/)
+- [Pro Git by Scott Chacon and Ben Straub](https://https://git-scm.com/book/en/v2)
 - [Pro Git by Scott Chacon and Ben Straub Français](https://git-scm.com/book/fr/v2)
 
 
