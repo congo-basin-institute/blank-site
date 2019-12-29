@@ -201,26 +201,6 @@ h6,
   font-size: var(--font-size-small);
 }
 
-::-moz-selection {
-  background: var(--lightest-blue);
-  text-shadow: none;
-}
-
-::selection {
-  background: var(--lightest-blue);
-  text-shadow: none;
-}
-
-small,
-.small,
-.legal {
-  font-size: var(--font-size-x-small);
-}
-
-code {
-  font-family: var(--font-family-mono);
-}
-
 hr {
   display: block;
   height: 1px;
@@ -243,16 +223,29 @@ figcaption {
   padding: 0;
 }
 
+::-moz-selection {
+  background: var(--lightest-blue);
+  text-shadow: none;
+}
+
+::selection {
+  background: var(--lightest-blue);
+  text-shadow: none;
+}
+
+small,
+.small,
+.legal {
+  font-size: var(--font-size-x-small);
+}
+
+code {
+  font-family: var(--font-family-mono);
+}
+
 img {
   max-width: 100%;
   display: block;
-}
-
-input,
-button,
-textarea,
-select {
-  font: inherit;
 }
 
 table {
@@ -278,17 +271,30 @@ tr {
   vertical-align: middle;
 }
 
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.standfirst,
+.leadline {
+  font-size: var(--font-size-large);
+  line-height: var(--line-height-alt);
+}
+
 @media print {
   *,
-*:before,
-*:after {
+  *:before,
+  *:after {
     background: transparent !important;
     color: #000 !important;
     box-shadow: none !important;
     text-shadow: none !important;
   }
   a,
-a:visited {
+  a:visited {
     text-decoration: underline;
   }
   a[href]:after {
@@ -298,14 +304,14 @@ a:visited {
     content: " (" attr(title) ")";
   }
   a[href^="#"]:after,
-a[href^="javascript:"]:after {
+  a[href^="javascript:"]:after {
     content: "";
   }
   pre {
     white-space: pre-wrap !important;
   }
   pre,
-blockquote {
+  blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
@@ -313,23 +319,17 @@ blockquote {
     display: table-header-group;
   }
   tr,
-img {
+  img {
     page-break-inside: avoid;
   }
   p,
-h2,
-h3 {
+  h2,
+  h3 {
     orphans: 3;
     widows: 3;
   }
   h2,
-h3 {
+  h3 {
     page-break-after: avoid;
   }
-}
-
-.standfirst,
-.leadline {
-  font-size: var(--font-size-large);
-  line-height: var(--line-height-alt);
 }

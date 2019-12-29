@@ -7,7 +7,7 @@
 		"uuidString": "43C94B84-7085-49A9-95AF-017301D2DA27"
 		}
 	],
-"creatorBuild": "31927",
+"creatorBuild": "31934",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -224,7 +224,7 @@
 		"oAP": "/research/index.html",
 		"oF": 0
 		},
-	"/scss/base/_embedded.scss": {
+	"/scss/base/_01-sections.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -232,12 +232,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/base/_embedded.css",
+		"oAP": "/scss/base/_01-sections.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/base/_forms.scss": {
+	"/scss/base/_02-headings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -245,12 +245,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/base/_forms.css",
+		"oAP": "/scss/base/_02-headings.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/base/_grouping.scss": {
+	"/scss/base/_03-grouping.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -258,12 +258,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/base/_grouping.css",
+		"oAP": "/scss/base/_03-grouping.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/base/_print.scss": {
+	"/scss/base/_04-text-level.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -271,12 +271,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/base/_print.css",
+		"oAP": "/scss/base/_04-text-level.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/base/_sections.scss": {
+	"/scss/base/_05-embedded.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -284,12 +284,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/base/_sections.css",
+		"oAP": "/scss/base/_05-embedded.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/base/_tables.scss": {
+	"/scss/base/_06-tables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -297,12 +297,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/base/_tables.css",
+		"oAP": "/scss/base/_06-tables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/base/_type-headings.scss": {
+	"/scss/base/_07-forms.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -310,12 +310,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/base/_type-headings.css",
+		"oAP": "/scss/base/_07-forms.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/base/_type.scss": {
+	"/scss/base/_08-interactive.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -323,7 +323,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/base/_type.css",
+		"oAP": "/scss/base/_08-interactive.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -350,6 +350,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/layouts/_grids.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/layouts/_print.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/layouts/_print.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -425,7 +438,7 @@
 "projectAttributes": {
 	"creationDate": 594012419.46736395,
 	"displayValue": "blank-site",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-pink",
 	"iconImageWasSetByUser": 0
 	},
@@ -2359,7 +2372,6 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
 		"enableJavascript": 0,
-		"ieCompatibility": 0,
 		"mathStyle": 0,
 		"outputStyle": 0,
 		"rewriteURLStyle": 0,
